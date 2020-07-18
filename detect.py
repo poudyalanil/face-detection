@@ -22,7 +22,7 @@ while True:
         cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),2)
 # show image
     cv2.imshow("Anil's Face Detection App",frame)
-    #agument 1 defines 1 milliseconds
+    #agument 1 defines milliseconds
     cv2.waitKey(1) # keeps imaage in the screen
 
 
